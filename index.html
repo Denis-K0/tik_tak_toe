@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <p>Tik Tak Toe</p>
+    </header>
+
+    <main>
+        <div class="gameSettings">
+            <p class="gameHeader">Tic Tak Toe</p>
+            <p class="gameHeaderSubtext">The Game</p>
+            <input type="text" value="Player" class="player1Btn"></input>
+            <button class="bot1Btn">Bot</button>
+            <p class="vsParagraph">VS</p>
+            <div class="startGameContainer"></div>
+            <input type="text" value="Player" class="player2Btn"></input>
+            <button class="bot2Btn">Bot</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>"Tik Tak Toe" by Denis K.</p>
+    </footer>
+
+    <dialog class="gameModal">
+        <div class="dialogContainer">
+            <div class="firstScoreContainer">
+                <p class="playerName01"></p><p class="score01">0</p>
+            </div>
+            <div class="secondScoreContainer">
+                <p class="playerName02"></p><p class="score02">0</p>
+            </div>
+            <img src="/window-close.svg" alt="closeButton" class="closeBtn">
+            <div class="gridContainer">
+                <div class="grid01 grid"></div>
+                <div class="grid02 grid"></div>
+                <div class="grid03 grid"></div>
+                <div class="grid04 grid"></div>
+                <div class="grid05 grid"></div>
+                <div class="grid06 grid"></div>
+                <div class="grid07 grid"></div>
+                <div class="grid08 grid"></div>
+                <div class="grid09 grid"></div>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="resultModal">
+        <div class="dialogResultContainer">
+            <img src="/window-close.svg" alt="closeButton" class="closeBtn02">
+            <p class="resultMsg">Der Sieger ist ...</p>
+            <p class="winnerMsg"></p>
+        </div>
+        
+
+
+    </dialog>
+</body>
+</html>
